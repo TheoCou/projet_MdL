@@ -1,0 +1,52 @@
+* {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    background: url(../asset/bgparis24.png) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    border: .3rem solid black;
+    max-width: 100%;
+    margin: 5rem 15% 0 15%;
+    padding: 4rem 0 4rem 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    backdrop-filter: blur(1rem);
+    padding: 3rem 0 3rem 0;
+}
