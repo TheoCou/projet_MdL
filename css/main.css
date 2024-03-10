@@ -10,26 +10,41 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-size: 1.6rem;
-    background: url(../asset/bgparis24.png) no-repeat fixed;
+    font: 1.6rem sans-serif;
+    background: url(../asset/background.jpg) no-repeat fixed;
     background-size: cover;
     background-position: center;
 }
 
 h1 {
-    border: .3rem solid black;
+    border: .3rem solid transparent;
     max-width: 100%;
     margin: 5rem 15% 0 15%;
     padding: 4rem 0 4rem 0;
     text-align: center;
+    backdrop-filter: blur(.5rem);
+    background-color: #fff;
+  
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    margin-left: 21%;
+    margin-right: 21%;
+    border-radius: 0.125rem;
+    backdrop-filter: blur(2rem);
 }
 
 p {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    font-size: 2rem;
+    border-radius: 0.125rem;
+    margin: 0 28% 3.5% 28%;
+    backdrop-filter: blur(2rem);
 }
 
 section {
