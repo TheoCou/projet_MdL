@@ -64,7 +64,9 @@ section {
 
 .section-title {
     grid-column: 1 / -1;
-    text-align: center;
+    text-align: left;
+    margin-left: 3%;
+    font-size: larger;
 }
 
 img {
@@ -119,6 +121,43 @@ figure {
     background-color: #000000;
     color: #ffffff;
     border: solid 2px #000000;
+}
+
+fieldset#inscription {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+fieldset#inscription label {
+    grid-column: span 1;
+}
+
+fieldset#inscription input[type="text"],
+fieldset#inscription input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+fieldset#inscription input[type="submit"] {
+    grid-column: span 2;
+    width: auto;
+    padding: 15px 50px;
+    font-size: 18px;
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 2px #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+fieldset#inscription input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 footer {

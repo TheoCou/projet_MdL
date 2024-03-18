@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./asset/torche.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Maison des Ligues</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 data-aos="fade-down">Maison des ligues tous les sports</h1>
+        <h2 data-aos="fade-down">Prêt(e) pour la compétition ? Cliquez sur le bouton en bas de page pour commencer</h2>
+        <p data-aos="fade-down" class="prestext">Tous les mois profitez de toutes les nouveautés et opportunités. A
+            partir du mois
+            prochain on vous propose toutes les séances de sport sur vos supports préférés.</p>
+    </header>
+
+    <main>
+
+        <section>
+
+            <div class="section-title">
+                <h3>Profils des sportifs</h3>
+            </div>
+
+            <figure>
+                <img src="./asset/ATHLETISME.jpg" alt="ATHLETISME" loading="lazy">
+                <figcaption>
+                    <p class="content_txt">..content..</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./asset/BADMINTON.jpg" alt="BADMINTON" loading="lazy">
+                <figcaption>
+                    <p class="content_txt">..content..</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./asset/BASKETBALL.jpg" alt="BASKETBALL" loading="lazy">
+                <figcaption>
+                    <p class="content_txt">..content..</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./asset/BMX-FREESTYLE.jpg" alt="BMX FREESTYLE" loading="lazy">
+                <figcaption>
+                    <p class="content_txt">..content..</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./asset/BOXE.jpg" alt="BOXE" loading="lazy">
+                <figcaption>
+                    <p class="content_txt">..content..</p>
+                </figcaption>
+            </figure>
+
+        </section>
+
+        <fieldset id="inscription">
+            <legend>Créez votre compte !</legend>
+            <form method="post">
+
+                <label for="nom">Nom*</label> <br>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom..." aria-required="true"> <br>
+
+                <label for="prenom">Prénom*</label> <br>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom..." aria-required="true"> <br>
+
+                <label for="email">Email*</label> <br>
+                <input type="text" id="email" name="login" placeholder="votremail@gmail.com" aria-required="true"> <br>
+
+                <label for="age">Âge*</label> <br>
+                <input type="number" id="age" name="age" placeholder="Quel âge avez-vous ?..." aria-required="true">
+                <br>
+
+                <label for="ville">Ville*</label> <br>
+                <input type="text" id="ville" name="ville" placeholder="Où habitez-vous ?" aria-required="true"> <br>
+
+                <label for="photo">Photo de profil*</label><br>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+                
+
+                <input type="submit" id="submit" value="Valider votre inscription" aria-label="Valider">
+
+            </form>
+        </fieldset>
+
+    </main>
+
+    <footer>
+        &copy; - Maison-ligues - 2024
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
