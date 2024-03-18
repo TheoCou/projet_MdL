@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./asset/torche.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Maison des Ligues</title>
 </head>
@@ -85,9 +87,12 @@
                 <label for="ville">Ville*</label> <br>
                 <input type="text" id="ville" name="ville" placeholder="Où habitez-vous ?" aria-required="true"> <br>
 
-                <label for="photo">Photo de profil*</label><br>
+                <label for="photo">
+                    <span class="material-symbols-outlined">
+                        upload_file
+                    </span>Photo de profil*</label><br>
                 <input type="file" id="photo" name="photo" accept="image/*" required>
-                
+
 
                 <input type="submit" id="submit" value="Valider votre inscription" aria-label="Valider">
 
