@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     font: 1.6rem sans-serif;
-    background: url(../asset/jobg.jpg) no-repeat fixed;
+    background: url(../asset/bground.png) no-repeat fixed;
     background-size: cover;
     background-position: center;
 }
@@ -24,10 +24,10 @@ main {
 }
 
 header {
-    background-color: #ffffffe2;
-    border-radius: 1rem;
+    border-bottom: 1px solid #000000;
     margin-bottom: 3%;
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
+    background-color: #ffffffc3;
 }
 
 h1 {
@@ -45,6 +45,10 @@ h2 {
     margin-left: 21%;
     margin-right: 21%;
     border-radius: 0.125rem;
+}
+
+h3 {
+    text-align: center;
 }
 
 .prestext {
@@ -67,6 +71,9 @@ section {
     text-align: left;
     margin-left: 3%;
     font-size: larger;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    background-color: #fffffff3;
 }
 
 img {
@@ -165,7 +172,8 @@ fieldset#inscription input[type="submit"]:hover {
 }
 
 footer {
+    border-top: 1px solid #000000;
     text-align: center;
-    backdrop-filter: blur(1rem);
     padding: 3rem 0 3rem 0;
+    background-color: #ffffffc3;
 }
