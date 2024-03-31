@@ -34,7 +34,7 @@ h1 {
     border: .3rem solid transparent;
     max-width: 100%;
     margin: 0 15% 0 15%;
-    padding: 4rem 0 4rem 0;
+    padding: 4rem 0 0 0;
     text-align: center;
 }
 
@@ -69,28 +69,32 @@ section {
 .section-title {
     grid-column: 1 / -1;
     text-align: left;
-    margin-left: 3%;
+    margin: 3%;
     font-size: larger;
     border: 2px solid #000000;
     border-radius: 15px;
     background-color: #fffffff3;
 }
 
-img {
-    max-width: 100%;
+section img {
     display: block;
-    height: 70%;
+    height: 180px;
+    width: auto;
     margin: 0 auto;
 }
 
 figure {
+    display: inline-block;
+    max-width: 100%;
     background-color: rgba(0, 0, 0, 0.896);
     border-radius: 1rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    margin: 0;
 }
 
 .content_txt {
-    text-align: center;
+    text-align: left;
+    margin-left: 3rem;
     color: #fff;
     font-weight: bolder;
 }
