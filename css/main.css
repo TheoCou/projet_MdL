@@ -88,6 +88,7 @@ section img {
 
 span {
     text-decoration: underline;
+    line-height: 2.3rem;
 }
 
 figure {
@@ -127,7 +128,7 @@ figure {
 }
 
 .btn img {
-    width: 1.875rem;
+    width: 3rem;
     margin-left: 0px;
     margin-right: 0.188rem;
     flex-direction: row-reverse;
@@ -185,7 +186,6 @@ fieldset#inscription input[type="submit"]:hover {
 }
 
 footer {
-    border-top: 1px solid #000000;
     text-align: center;
     padding: 3rem 0 3rem 0;
     background-color: #ffffffc3;
