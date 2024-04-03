@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x:hidden; 
 }
 
 body {
@@ -152,6 +153,14 @@ figure {
     flex-direction: row-reverse;
 }
 
+.corner-image {
+    width: 22%;
+    position: absolute;
+    top: 89.1rem;
+    left: 24.6rem;
+    z-index: 1;
+}
+
 .btn:hover {
     transition: 998ms;
     padding: 1rem 3.125rem;
@@ -161,11 +170,15 @@ figure {
     border: solid 2px #000000;
 }
 
+form {
+    width: 50rem;
+}
+
 fieldset#inscription {
     backdrop-filter: blur(1rem);
-    max-width: 50rem;
-    margin: 5% 0 10% 0;
-    padding: 0 15% 2% 10%;
+    width: 52rem;
+    margin: 7% 0 10% 0;
+    padding: 0 6% 1% 5%;
     display: grid;
 }
 
