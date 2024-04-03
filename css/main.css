@@ -154,10 +154,10 @@ figure {
 }
 
 .corner-image {
-    width: 22%;
+    width: 30%;
     position: absolute;
-    top: 89.1rem;
-    left: 24.6rem;
+    top: -72px;
+    left: -94px;
     z-index: 1;
 }
 
@@ -171,9 +171,11 @@ figure {
 }
 
 form {
-    width: 50rem;
+    max-width: 50rem;
 }
-
+fieldset{
+    position: relative;
+}
 fieldset#inscription {
     backdrop-filter: blur(1rem);
     width: 52rem;
