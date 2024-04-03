@@ -24,14 +24,12 @@ main {
 }
 
 header {
-    border-bottom: 1px solid #000000;
     margin-bottom: 3%;
     padding-bottom: 6rem;
     background-color: #ffffffc3;
 }
 
 h1 {
-    border: .3rem solid transparent;
     max-width: 100%;
     margin: 0 15% 0 15%;
     padding: 4rem 0 0 0;
@@ -51,6 +49,10 @@ h3 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .prestext {
     display: flex;
     justify-content: center;
@@ -61,9 +63,10 @@ h3 {
 }
 
 section {
+    max-width: 120rem;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 5rem;
+    gap: .5rem;
 }
 
 .section-title {
@@ -71,16 +74,20 @@ section {
     text-align: left;
     margin: 3%;
     font-size: larger;
-    border: 2px solid #000000;
     border-radius: 15px;
     background-color: #fffffff3;
 }
 
 section img {
-    display: block;
-    height: 180px;
-    width: auto;
+    display: inline-block;
+    height: 25rem;
+    width: 100%;
     margin: 0 auto;
+    object-fit: cover;
+}
+
+span {
+    text-decoration: underline;
 }
 
 figure {
@@ -115,6 +122,8 @@ figure {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    font-weight: normal;
+    line-height: 1.8rem;
 }
 
 .btn img {
