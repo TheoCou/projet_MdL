@@ -154,10 +154,10 @@ figure {
 }
 
 .corner-image {
-    width: 30%;
+    width: 55%;
     position: absolute;
-    top: -72px;
-    left: -94px;
+    top: -140px;
+    left: -192px;
     z-index: 1;
 }
 
