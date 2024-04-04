@@ -179,7 +179,7 @@ fieldset{
 fieldset#inscription {
     backdrop-filter: blur(1rem);
     width: 52rem;
-    margin: 7% 0 10% 0;
+    margin: 15% 0 10% 0;
     padding: 0 6% 1% 5%;
     display: grid;
 }
@@ -236,4 +236,6 @@ footer {
     text-align: center;
     padding: 3rem 0 3rem 0;
     background-color: #ffffffc3;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
