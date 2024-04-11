@@ -24,7 +24,7 @@ main {
     align-items: center;
 }
 
-header {
+.header-principal {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,6 +46,15 @@ header {
 
 .header-left img, .header-right img {
     width: 200px;
+}
+
+.header-connection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffffe1;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
 }
 
 h1 {
@@ -105,11 +114,6 @@ section img {
     object-fit: cover;
 }
 
-figure span {
-    text-decoration: underline rgb(232, 39, 47);
-    line-height: 2.3rem;
-}
-
 figure {
     display: inline-block;
     max-width: 100%;
@@ -117,6 +121,11 @@ figure {
     border-radius: 1rem;
     padding-top: 2rem;
     margin: 0;
+}
+
+figure span {
+    text-decoration: underline rgb(232, 39, 47);
+    line-height: 2.3rem;
 }
 
 .content_txt {
@@ -176,6 +185,11 @@ form {
 fieldset{
     position: relative;
 }
+
+fieldset#inscription-user {
+    
+}
+
 fieldset#inscription {
     backdrop-filter: blur(1rem);
     width: 52rem;

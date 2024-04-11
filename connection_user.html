@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./asset/torche.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Maison des Ligues</title>
+</head>
+
+<body>
+
+    <header class="header-connection">
+
+        <div data-aos="fade-right" class="header-left">
+            <img src="./asset/logojo.png" alt="logo jo" loading="lazy">
+        </div>
+
+        <div class="header-center">
+            <h1 data-aos="fade-down">Maison des ligues tous les sports</h1>
+        </div>
+
+        <div data-aos="fade-left" class="header-right">
+            <img src="./asset/mascotte.png" alt="logo jo" loading="lazy">
+        </div>
+
+    </header>
+
+    <div class="scroll_btn">
+
+        <a href="#"><img src="./asset/arrow_up.png" alt="scroll button" loading="lazy"></a>
+
+    </div>
+
+    <main>
+
+        <fieldset id="inscription">
+
+            <legend>Veuillez vous connecter !</legend>
+            <img class="corner-image" src="./asset/mascotte_angle.png" alt="mascotte angle" loading="lazy">
+            <form method="post">
+
+                <label for="email">Email*</label> <br>
+                <input type="text" id="email" name="login" placeholder="votremail@gmail.com" aria-required="true"> <br>
+
+                <label for="password">Mot de passe</label> <br>
+                <input type="text" id="password" name="password" placeholder="Votre mot de passe..." aria-required="true"> <br>
+
+
+                <input type="submit" id="submit" value="Valider" aria-label="Valider">
+
+            </form>
+        </fieldset>
+
+    </main>
+
+    <footer>
+        &copy; - Maison-ligues - 2024
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
