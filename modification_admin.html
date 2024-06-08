@@ -22,6 +22,8 @@
 
         <div class="header-center">
             <h1 data-aos="fade-down">Maison des ligues tous les sports</h1>
+            <h2 data-aos="fade-down">ADMIN&#x1F512;</h2>
+            <p data-aos="fade-down" class="prestext">Modifier les informations de l'utilisateurs</p>
         </div>
 
         <div data-aos="fade-left" class="header-right">
@@ -40,18 +42,37 @@
 
         <fieldset id="inscription">
 
-            <legend>Veuillez vous connecter !</legend>
+            <legend>Modifier l'utilisateur</legend>
             <img class="corner-image" src="./asset/mascotte_angle.png" alt="mascotte angle" loading="lazy">
             <form method="post">
 
+                <label for="nom">Nom*</label> <br>
+                <input type="text" id="nom" name="nom" placeholder="Nom" aria-required="true"> <br>
+
+                <label for="prenom">Prénom*</label> <br>
+                <input type="text" id="prenom" name="prenom" placeholder="Prénom" aria-required="true"> <br>
+
                 <label for="email">Email*</label> <br>
-                <input type="text" id="email" name="login" placeholder="votremail@gmail.com" aria-required="true"> <br>
+                <input type="text" id="email" name="login" placeholder="email@gmail.com" aria-required="true"> <br>
 
                 <label for="password">Mot de passe</label> <br>
-                <input type="text" id="password" name="password" placeholder="Votre mot de passe..." aria-required="true"> <br>
+                <input type="text" id="password" name="password" placeholder="Mot de passe" aria-required="true"> <br>
 
+                <label for="age">Âge*</label> <br>
+                <input type="number" id="age" name="age" placeholder="Âge" aria-required="true">
+                <br>
 
-                <input type="submit" id="submit" value="Valider" aria-label="Valider">
+                <label for="ville">Ville*</label> <br>
+                <input type="text" id="ville" name="ville" placeholder="Ville" aria-required="true"> <br>
+
+                <label for="photo">
+                    <span class="material-symbols-outlined">
+                        upload_file
+                    </span>Photo de profil*</label><br>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+
+                <input type="submit" id="submit" value="Valider les modifications" aria-label="Valider">
+
 
             </form>
         </fieldset>

@@ -106,6 +106,12 @@ section {
     background-color: #fffffff3;
 }
 
+.section-title-succes {
+    background-color: #fffffff3;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
 section img {
     display: inline-block;
     height: 25rem;
@@ -126,6 +132,16 @@ figure {
 figure span {
     text-decoration: underline rgb(232, 39, 47);
     line-height: 2.3rem;
+}
+
+.figure_list_admin {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.896);
+    border-radius: 1rem;
+    padding-top: 2rem;
+    margin: 0;
 }
 
 .content_txt {
@@ -179,15 +195,61 @@ figure span {
     border: solid 2px #000000;
 }
 
+.btn_home {
+    margin: 2rem 0 2rem 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000000;
+    padding: 1rem 2.188rem;
+    border: solid #000000 2px;
+    box-shadow: none;
+    border-radius: 3.125rem;
+    transition: 998ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-weight: normal;
+    line-height: 1.8rem;
+}
+
+.btn_connect {
+    margin: 0 0 2rem 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000000;
+    padding: 1rem 2.188rem;
+    border: solid #000000 2px;
+    box-shadow: none;
+    border-radius: 3.125rem;
+    transition: 998ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-weight: normal;
+    line-height: 1.8rem;
+}
+
+.btn_connect:hover,
+.btn_home:hover {
+    transition: 998ms;
+    padding: 1rem 3.125rem;
+    transform: translateY(-0px);
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 2px #000000;
+}
+
 form {
     max-width: 50rem;
 }
 fieldset{
     position: relative;
-}
-
-fieldset#inscription-user {
-    
 }
 
 fieldset#inscription {
@@ -246,10 +308,26 @@ fieldset#inscription input[type="submit"]:hover {
     box-shadow: 0 0.5rem 0 0 #00000015;
 }
 
+.btn-edit-delete {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+figure:hover .btn-edit-delete {
+    display: inline-block;
+}
+
 footer {
     text-align: center;
     padding: 3rem 0 3rem 0;
     background-color: #ffffffc3;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+
+.footer_list_admin {
+    margin-top: 2%;
 }
